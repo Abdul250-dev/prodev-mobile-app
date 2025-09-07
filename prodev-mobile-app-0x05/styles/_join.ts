@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     position: 'absolute',
-    left: 77,
+    left: 77, 
     right: 76,
     bottom: 33
   },
@@ -122,89 +122,84 @@ const styles = StyleSheet.create({
     color: '#34967C',
     marginTop: 9,
   },
+ 
   navGroup: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center',
-    marginTop: 22
+    marginBottom: 20,
+    marginTop: 11
   },
   largeText: {
+    fontSize: 40,
     fontWeight: 700,
-    fontSize: 39,
-    color: '#000'
   },
   smallText: {
-    fontWeight: 400,
     fontSize: 12,
-    color: '#7E7B7B',
-    marginTop: 10
+    color: '#7E7B7B'
   },
   placeholderText: {
     fontSize: 18,
-    fontWeight: 400,
-    color: '#7B7B7B',
+    color: '#7E7B7B',
     marginBottom: 7
   },
   inputField: {
-    borderWidth: 2,
-    height: 50,
+    borderWidth: 1,
     borderRadius: 10,
-    borderColor: '#E9E9E9',
+    height: 50,
+    borderColor: '#7E7B7B',
     paddingHorizontal: 10
   },
   passwordGroup: {
-    borderWidth: 2,
+    flexDirection: 'row',
+    borderWidth: 1,
+    alignItems: 'center',
     height: 50,
     borderRadius: 10,
-    borderColor: '#E9E9E9',
     paddingHorizontal: 10,
-    flexDirection: 'row',
+    borderColor: '#7e7b7b'
+  },
+
+  button: {
+    backgroundColor: '#2B876E',
+    height: 53,
+    borderRadius: 10,
+    marginTop: 25,
+    justifyContent: 'center',
     alignItems: 'center'
   },
-  button: {
-    backgroundColor: '#34967C',
-    height: 53,
-    borderRadius: 10,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: 25
-  },
-  socialMediaButtonGroup: {
-    rowGap: 15,
-    marginTop: 15,
-  },
+ 
   socialMediaButton: {
-    height: 53,
-    borderRadius: 10,
+    borderWidth: 1,
+    height: 50,
     justifyContent: 'center',
     alignItems: 'center',
-    flexDirection: 'row',
-    columnGap: 10,
-    borderWidth: 1,
-    borderColor: '#E9E9E9'
+    borderRadius: 10
   },
   socialMediaButtonText: {
     fontSize: 18,
-    fontWeight: 400,
-    color: '#000'
+    color: '#0D0D0D',
+    fontWeight: 400
   },
+  socialMediaButtonGroup: {
+    gap: 15,
+    marginTop: 25
+  },
+  
+
   subTextGroup: {
     flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
-    gap: 5,
-    marginTop: 20
+    position: 'absolute',
+    bottom: 33,
+    left: 77,
+    right: 76
   },
-  subText: {
-    fontSize: 18,
-    fontWeight: 400,
-    color: '#7E7B7B'
-  },
+
   subTextJoin: {
     fontSize: 18,
-    fontWeight: 600,
-    color: '#FFA800'
+    color: '#FFA800',
+    fontWeight: 600
   }
+
 });
 
-export { styles };
+export { styles }

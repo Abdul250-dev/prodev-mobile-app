@@ -1,8 +1,7 @@
-import { styles } from "@/styles";
+import { Text, TextInput, View, TouchableOpacity, Image } from "react-native";
+import { styles } from "@/styles/_join";
+import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
-import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
-
 
 export default function Index() {
   return (
@@ -84,7 +83,7 @@ export default function Index() {
         </View>
 
         <View style={styles.subTextGroup}>
-          <Text style={styles.subText}>{`Don't have an account?`}</Text>
+          <Text style={styles.subText}>Don't have an account?</Text>
           <Text style={styles.subTextJoin}>Join now</Text>
         </View>
       </SafeAreaView>

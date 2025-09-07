@@ -1,11 +1,11 @@
-import { View, Text } from "react-native";
+import React from 'react'
 
-const Saved = () => {
+function saved() {
   return (
-      <View>
-        <Text>Saved Screen</Text>
-      </View>
+	<div>
+	  saved
+	</div>
   )
 }
 
-export default Saved;
+export default saved

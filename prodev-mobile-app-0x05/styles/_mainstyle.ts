@@ -94,6 +94,12 @@ const styles = StyleSheet.create({
     gap: SPACING.small,
     marginTop: 19,
   },
+  navGroup: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 20,
+    marginTop: 11
+  }
 });
 
 export { styles };

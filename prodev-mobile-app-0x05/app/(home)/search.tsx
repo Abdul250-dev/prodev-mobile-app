@@ -1,11 +1,11 @@
-import { View, Text } from "react-native";
+import React from 'react'
 
-const Search = () => {
+function search() {
   return (
-      <View>
-        <Text>Profile Screen</Text>
-      </View>
+	<div>
+	  search
+	</div>
   )
 }
 
-export default Search;
+export default search
